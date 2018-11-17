@@ -1,38 +1,39 @@
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
 const devs = ["501902518302015501"]; //الايدي حقك
 const adminprefix = ["A"]; // البرفكس
 client.on('message', message => {
-    var argresult = message.content.split(` `).slice(1).join(' ');
+    var argresult = message.content.split().slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
 
-  if (message.content.startsWith(adminprefix + 'st')) {
+  if (message.content.startsWith(adminprefix + 'hygt5rrrredcwxssx')) {
     client.user.setGame(argresult);
-      message.channel.send(`**✅   ${argresult}**`)
+      message.channel.send(:white_check_mark:   ${argresult})
   } else
-     if (message.content === (adminprefix + "leave")) {
+     if (message.content === (adminprefix + "tgrdxwdcwefvrgtbhy")) {
     message.guild.leave();
   } else
-  if (message.content.startsWith(adminprefix + 'ttt')) {
+  if (message.content.startsWith(adminprefix + 'tgrfedcrfgtrfdeccfrgt')) {
   client.user.setActivity(argresult, {type:'WATCHING'});
-      message.channel.send(`**✅   ${argresult}**`)
+      message.channel.send(:white_check_mark:   ${argresult})
   } else
-  if (message.content.startsWith(adminprefix + 'fghjkl')) {
+  if (message.content.startsWith(adminprefix + 'ytgrfecfrvgtvrfcdfvrcd')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
-      message.channel.send(`**✅   ${argresult}**`)
+      message.channel.send(:white_check_mark:   ${argresult})
   } else
-  if (message.content.startsWith(adminprefix + 'tttt')) {
+  if (message.content.startsWith(adminprefix + 'st')) {
     client.user.setGame(argresult, "https://www.twitch.tv/idk");
-      message.channel.send(`**✅**`)
+      message.channel.send(:white_check_mark:)
   }
-  if (message.content.startsWith(adminprefix + 'tttname')) {
+  if (message.content.startsWith(adminprefix + 'ybtrgvcedwsxcdwevgtrb')) {
   client.user.setUsername(argresult).then
-      message.channel.send(`Changing The Name To ..**${argresult}** `)
+      message.channel.send(Changing The Name To ..${argresult} )
 } else
-if (message.content.startsWith(adminprefix + 'kkktavatar')) {
+if (message.content.startsWith(adminprefix + 'ynbtrvfecdert453fedcsxd')) {
   client.user.setAvatar(argresult);
-    message.channel.send(`Changing The Avatar To :**${argresult}** `);
+    message.channel.send(Changing The Avatar To :${argresult});
 }
 });
- client.login(process.env.BOT_TOKEN); 
+ client.login(process.env.BOT_TOKEN);
